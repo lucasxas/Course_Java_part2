@@ -31,6 +31,7 @@ public class AppL7Q1 {
 			// Entrando com o telefone ...
 			System.out.println("Entre com o telefone na posição -" + (x + 1));
 			agenda.telefone[x] = input.nextLong();
+			input.nextLine();
 		}
 
 		// exibindo os resultados...
